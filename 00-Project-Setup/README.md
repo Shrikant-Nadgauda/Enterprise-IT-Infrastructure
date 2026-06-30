@@ -1262,44 +1262,80 @@ git push
 
 # 🚀 Enterprise IT Infrastructure Knowledge Base
 
-> **Phase 06 : Create HLD Documentation Structure (01–20 Modules)**
+# Phase 06 : Create High-Level Design (HLD) Documentation Structure
 
-![Git](https://img.shields.io/badge/Git-Git%20Bash-F05032?style=for-the-badge&logo=git&logoColor=white)
-![HLD](https://img.shields.io/badge/High%20Level%20Design-Architecture-blue?style=for-the-badge&logo=github)
-![Documentation](https://img.shields.io/badge/Enterprise-HLD-green?style=for-the-badge)
+Git • GitHub • Enterprise Architecture
 
 ---
 
 # 📖 Objective
 
-Create a complete **High Level Design (HLD)** documentation structure inside the `02-HLD` directory using a single Git Bash command.
-
-This ensures:
-- Standardized enterprise architecture documentation
-- Clean folder structure
-- Easy Git version control
-- Scalable HLD framework
+Create the complete **High-Level Design (HLD)** documentation structure that will describe every major infrastructure component from an architectural perspective before moving into Low-Level Design (LLD) and implementation.
 
 ---
 
-# 🛠 Step 1 — Navigate to HLD Directory
+# 🛠 Step 1 — Navigate to Project Repository
 
 ```bash
-cd /d/Enterprise-IT-Infrastructure/02-HLD
+cd /d/Enterprise-IT-Infrastructure
+```
+
+**Purpose:** Open the enterprise project repository.
 
 ---
 
-##  🛠 Step 2 — Create HLD Documentation Files (Single Command)
+# 🛠 Step 2 — Navigate to HLD Directory
+
+```bash
+cd 02-HLD
+```
+
+**Purpose:** Open the High-Level Design documentation directory.
+
+---
+
+# 🛠 Step 3 — Create HLD Documentation Files
+
+```bash
 touch \
 README.md \
-{01-Enterprise-Architecture,02-Network-Architecture,03-FortiGate-Architecture,04-Active-Directory-Architecture,05-Certificate-Authority-Architecture,06-WSUS-Architecture,07-Backup-Architecture,08-NTP-Architecture,09-Email-Protector-Architecture,10-NMS-Architecture,11-File-Server-Architecture,12-Application-Architecture,13-Database-Architecture,14-Microsoft-Entra-ID-Architecture,15-Microsoft-365-Architecture,16-Microsoft-Intune-Architecture,17-Microsoft-Authenticator-Architecture,18-Branch-Connectivity,19-Security-Architecture,20-High-Level-Summary}.md
+01-Enterprise-Architecture.md \
+02-Network-Architecture.md \
+03-FortiGate-Architecture.md \
+04-Active-Directory-Architecture.md \
+05-Certificate-Authority-Architecture.md \
+06-WSUS-Architecture.md \
+07-Backup-Architecture.md \
+08-NTP-Architecture.md \
+09-Email-Protector-Architecture.md \
+10-NMS-Architecture.md \
+11-File-Server-Architecture.md \
+12-Application-Architecture.md \
+13-Database-Architecture.md \
+14-Microsoft-Entra-ID-Architecture.md \
+15-Microsoft-365-Architecture.md \
+16-Microsoft-Intune-Architecture.md \
+17-Microsoft-Authenticator-Architecture.md \
+18-Branch-Connectivity.md \
+19-Security-Architecture.md \
+20-High-Level-Summary.md
+```
 
-Purpose:
-Create all required HLD documentation files in one single command instead of manual creation.
+**Purpose:** Create all High-Level Design (HLD) documentation files using a single command.
 
-🛠 Step 3 — Verify Structure
-tree
-✅ Expected Output
+---
+
+# 🛠 Step 4 — Verify Structure
+
+```bash
+tree .
+```
+
+---
+
+# ✅ Expected Output
+
+```text
 02-HLD
 │
 ├── README.md
@@ -1324,3 +1360,34 @@ tree
 ├── 18-Branch-Connectivity.md
 ├── 19-Security-Architecture.md
 └── 20-High-Level-Summary.md
+```
+
+---
+
+# 🛠 Step 5 — Save Changes
+
+```bash
+git add .
+git commit -m "Create HLD documentation structure"
+git push
+```
+
+---
+
+# 🎯 Phase Summary
+
+✅ High-Level Design directory prepared
+
+✅ Enterprise architecture documentation structure created
+
+✅ Standard HLD Markdown files created
+
+✅ Repository updated on GitHub
+
+---
+
+## ✅ Standard Commit
+
+```bash
+git commit -m "Create HLD documentation structure"
+```
