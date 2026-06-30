@@ -1513,3 +1513,198 @@ git push
 ✅ Repository updated on GitHub
 
 ---
+# 🚀 Enterprise IT Infrastructure Knowledge Base
+
+# Phase 08 : Create Infrastructure Deep Dive Documentation Structure
+
+Git • GitHub • Enterprise Learning
+
+---
+
+# 📖 Objective
+
+Create the complete **Infrastructure Deep Dive** documentation structure.
+
+This section is the heart of the repository. Instead of only documenting the production environment, it teaches every infrastructure component from the ground up—starting with basic concepts and progressing to enterprise-level implementation, administration, troubleshooting, security, and best practices.
+
+Every topic follows a **Zero to Hero** learning approach, making it suitable for beginners, system administrators, cloud engineers, security engineers, and enterprise architects.
+
+---
+
+# 🛠 Step 1 — Navigate to Project Repository
+
+```bash
+cd /d/Enterprise-IT-Infrastructure
+```
+
+**Purpose:** Open the enterprise project repository.
+
+---
+
+# 🛠 Step 2 — Navigate to Infrastructure Deep Dive Directory
+
+```bash
+cd 04-Infrastructure-Deep-Dive
+```
+
+**Purpose:** Open the Infrastructure Deep Dive documentation directory.
+
+---
+
+# 🛠 Step 3 — Create Component Directories
+
+```bash
+mkdir \
+01-FortiGate \
+02-Active-Directory \
+03-Certificate-Authority \
+04-WSUS \
+05-Backup \
+06-NTP \
+07-Email-Protector \
+08-NMS \
+09-File-Server \
+10-Application-Server \
+11-Database-Server \
+12-Microsoft-Entra-ID \
+13-Microsoft-365 \
+14-Microsoft-Intune \
+15-Microsoft-Authenticator
+```
+
+**Purpose:** Create dedicated folders for every enterprise infrastructure component.
+
+---
+
+# 🛠 Step 4 — Create Sample Documentation Structure
+
+```bash
+touch \
+01-FortiGate/README.md \
+01-FortiGate/01-What-is-Firewall.md \
+01-FortiGate/02-How-Firewall-Works.md \
+01-FortiGate/03-Packet-Flow.md \
+01-FortiGate/04-Interfaces.md \
+01-FortiGate/05-Firewall-Policy.md \
+01-FortiGate/06-NAT.md \
+01-FortiGate/07-VIP.md
+```
+
+**Purpose:** Create the initial learning structure for the FortiGate Deep Dive. The same documentation pattern will be followed for every remaining infrastructure component.
+
+---
+
+# 🛠 Step 5 — Verify Structure
+
+```bash
+tree .
+```
+
+---
+
+# ✅ Expected Output
+
+```text
+04-Infrastructure-Deep-Dive
+│
+├── README.md
+│
+├── 01-FortiGate
+├── 02-Active-Directory
+├── 03-Certificate-Authority
+├── 04-WSUS
+├── 05-Backup
+├── 06-NTP
+├── 07-Email-Protector
+├── 08-NMS
+├── 09-File-Server
+├── 10-Application-Server
+├── 11-Database-Server
+├── 12-Microsoft-Entra-ID
+├── 13-Microsoft-365
+├── 14-Microsoft-Intune
+└── 15-Microsoft-Authenticator
+```
+
+---
+
+# 🎯 Learning Methodology
+
+Every infrastructure component will follow the same learning path.
+
+```text
+Introduction
+        │
+        ▼
+Architecture
+        │
+        ▼
+Working Principle
+        │
+        ▼
+Installation
+        │
+        ▼
+Configuration
+        │
+        ▼
+Administration
+        │
+        ▼
+Production Deployment
+        │
+        ▼
+Troubleshooting
+        │
+        ▼
+Best Practices
+        │
+        ▼
+Interview Questions
+```
+
+---
+
+# 📚 Components Covered
+
+- FortiGate Firewall
+- Active Directory
+- Certificate Authority (PKI)
+- Windows Server Update Services (WSUS)
+- Enterprise Backup
+- Network Time Protocol (NTP)
+- Email Protector
+- Network Monitoring System (NMS)
+- File Server
+- Application Server
+- Database Server
+- Microsoft Entra ID
+- Microsoft 365
+- Microsoft Intune
+- Microsoft Authenticator
+
+---
+
+# 🛠 Step 6 — Save Changes
+
+```bash
+git add .
+git commit -m "Create infrastructure deep dive documentation structure"
+git push
+```
+
+---
+
+# 🎯 Phase Summary
+
+✅ Infrastructure Deep Dive directory prepared
+
+✅ Individual component folders created
+
+✅ Learning framework established
+
+✅ Zero-to-Hero documentation approach defined
+
+✅ Repository updated on GitHub
+
+---
