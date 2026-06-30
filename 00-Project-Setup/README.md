@@ -316,15 +316,6 @@ Enterprise-IT-Infrastructure
 
 ---
 
-# 🚀 Next Phase
-
-**Phase 02 — First Commit & Push Repository to GitHub**
-
----
-
-> 💡 **Enterprise Best Practice:** Create small, meaningful commits after every completed milestone instead of one large commit at the end.
-
-
 # 🚀 Enterprise IT Infrastructure Knowledge Base
 
 > **Phase 02 : First Commit & Push Repository to GitHub**
@@ -707,14 +698,6 @@ In this phase we successfully completed:
 - Review changes before every commit.
 
 ---
-
-# 🚀 Next Phase
-
-**Phase 03 — Branching Strategy, Feature Development & Pull Requests**
-
----
-
-> 💡 **Enterprise Best Practice:** Treat GitHub as your engineering diary. Every meaningful improvement should be committed with a clear message, making your learning journey and project history easy to follow and review.
 
 # 🚀 Enterprise IT Infrastructure Knowledge Base
 
