@@ -154,43 +154,64 @@ Active Directory remains the primary identity source, while Azure AD Connect syn
 
 ---
 
-# 📈 High-Level Environment
+# 📈 High-Level Enterprise Infrastructure
 
 ```text
-Users
-   │
-   ▼
-Branch Offices
-   │
-   ▼
-Internet
-   │
-   ▼
-FortiGate Firewall
-   │
-   ▼
-Yotta Datacenter
-   │
-   ├── Active Directory
-   ├── Certificate Authority
-   ├── WSUS
-   ├── Backup
-   ├── NTP
-   ├── Email Protector
-   ├── NMS
-   ├── File Server
-   ├── Application Server
-   └── Database Server
-          │
-          ▼
-Azure AD Connect
-          │
-          ▼
-Microsoft Entra ID
-     │
-     ├── Microsoft 365
-     ├── Microsoft Intune
-     └── Microsoft Authenticator
+                                           🌐 Internet
+                                                │
+                                   🛡 FortiGate Firewall
+                                                │
+══════════════════════════════════════════════════════════════════════════════════════════════════════════════
+
+                                   🏢 Yotta Datacenter (On-Premises)
+
+══════════════════════════════════════════════════════════════════════════════════════════════════════════════
+
+ 🖥 Active Directory      🔐 Certificate Authority      📦 WSUS Server        💾 Backup Server
+         │
+
+ 🕒 NTP Server            📧 Email Protector            📊 NMS Server         📁 File Server
+
+ 💼 Application Servers                          🗄 Database Servers
+
+         │
+         │ Identity Synchronization
+         ▼
+ 🔄 Azure AD Connect
+         │
+══════════════════════════════════════════════════════════════════════════════════════════════════════════════
+
+                                        ☁ Microsoft Cloud
+
+══════════════════════════════════════════════════════════════════════════════════════════════════════════════
+
+                                        🔷 Microsoft Entra ID
+                                                  │
+                ┌─────────────────────────────────┼─────────────────────────────────┐
+                │                                 │                                 │
+                ▼                                 ▼                                 ▼
+
+        📧 Microsoft 365                  💻 Microsoft Intune             📱 Microsoft Authenticator
+                │                                 │                                 │
+     ┌──────────┼──────────┐             ┌────────┼─────────┐                      │
+     │          │          │             │        │         │                      │
+ 📧 Outlook   💬 Teams  ☁ OneDrive   💻 Windows PCs   💼 Laptops            🔐 MFA / OTP
+        │                             │
+   ✉ Exchange Online            🔒 BitLocker
+                                🛡 Microsoft Defender
+                                🔄 Windows Updates
+
+══════════════════════════════════════════════════════════════════════════════════════════════════════════════
+
+                               👨‍💻 Enterprise Users & Branch Offices
+
+══════════════════════════════════════════════════════════════════════════════════════════════════════════════
+
+      🏢 Mumbai HO          🏢 Pune Branch          🏢 Nashik Branch          🏢 Nagpur Branch
+                │                   │                      │                       │
+                └───────────────────┴──────────────────────┴───────────────────────┘
+                                          🔐 IPSec VPN Connectivity
+
 ```
 
 ---
