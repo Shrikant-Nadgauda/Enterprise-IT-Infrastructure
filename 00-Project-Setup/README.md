@@ -1011,3 +1011,202 @@ This phase includes:
 ---
 
 > **Repository Status:** ✅ Repository Structure Completed
+
+# 🚀 Enterprise IT Infrastructure Knowledge Base
+
+> **Phase 04 : Create Enterprise Repository Structure**
+
+![Git](https://img.shields.io/badge/Git-Version%20Control-F05032?style=for-the-badge&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-Enterprise%20Repository-181717?style=for-the-badge&logo=github)
+![Documentation](https://img.shields.io/badge/Documentation-Professional-blue?style=for-the-badge)
+
+---
+
+# 📖 Objective
+
+Create the complete enterprise repository structure using the minimum number of Git Bash commands following professional engineering practices.
+
+---
+
+# 📂 Target Repository
+
+```text
+Enterprise-IT-Infrastructure
+```
+
+---
+
+# 🛠 Step 1 — Open Project
+
+```bash
+cd /d/Enterprise-IT-Infrastructure
+```
+
+**Purpose:** Navigate to the project directory.
+
+---
+
+# 🛠 Step 2 — Open Visual Studio Code
+
+```bash
+code .
+```
+
+**Purpose:** Open the project in Visual Studio Code.
+
+---
+
+# 🛠 Step 3 — Create Project Directories
+
+```bash
+mkdir -p \
+01-Projects/RK-Project-Details \
+02-HLD/RK-HLD/{Architecture,Network,Servers,Cloud,Security,Inventory} \
+03-LLD/RK-LLD/{Network,Firewall,Servers,Cloud,VPN,Authentication} \
+04-Infrastructure-Deep-Dive/{RK-DC-FortiGate-120G,RK-DC-Active-Directory,RK-DC-Certificate-Authority,RK-DC-WSUS,RK-DC-NTP,RK-DC-Backup,RK-DC-Email-Protector,RK-DC-NMS,RK-DC-File-Server,RK-DC-Application-Server,RK-DC-Database-Server,RK-Cloud-Entra-ID,RK-Cloud-Microsoft365,RK-Cloud-Intune,RK-Cloud-Authenticator} \
+05-Security-Review/{Checklists,Evidence,Reports} \
+06-Runbooks/{New-User,Password-Reset,VPN-Access,Certificate-Renewal,Laptop-Build} \
+07-Diagrams/{DrawIO,PNG,PDF} \
+08-Scripts/{PowerShell,Bash,FortiGate-CLI} \
+09-Templates/{Checklist,Evidence,Email,HLD,LLD} \
+10-Assets/{Images,Icons,Logos}
+```
+
+**Purpose:** Create the complete enterprise folder hierarchy.
+
+---
+
+# 🛠 Step 4 — Create README Files
+
+```bash
+find . -type d -exec touch {}/README.md \;
+```
+
+**Purpose:** Create a README.md inside every directory.
+
+---
+
+# 🛠 Step 5 — Create Project Files
+
+```bash
+touch \
+01-Projects/RK-Project-Details/RK-Architecture.drawio \
+01-Projects/RK-Project-Details/RK-Architecture.pdf \
+01-Projects/RK-Project-Details/RK-Network-Flow.md \
+01-Projects/RK-Project-Details/RK-Server-Inventory.xlsx \
+01-Projects/RK-Project-Details/RK-IP-Addressing.xlsx \
+01-Projects/RK-Project-Details/RK-Meeting-Notes.md \
+01-Projects/RK-Project-Details/RK-Project-Timeline.md
+```
+
+**Purpose:** Create the initial project documentation files.
+
+---
+
+# 🛠 Step 6 — Verify Repository Structure
+
+```bash
+tree -L 3
+```
+
+**Purpose:** Display the repository structure.
+
+---
+
+# 🛠 Step 7 — Verify Repository Status
+
+```bash
+git status
+```
+
+**Purpose:** Display newly created files.
+
+---
+
+# 🛠 Step 8 — Stage All Files
+
+```bash
+git add .
+```
+
+**Purpose:** Add all files to the staging area.
+
+---
+
+# 🛠 Step 9 — Commit Changes
+
+```bash
+git commit -m "Add enterprise repository folder structure and project templates"
+```
+
+**Purpose:** Save the repository structure.
+
+---
+
+# 🛠 Step 10 — Push to GitHub
+
+```bash
+git push
+```
+
+**Purpose:** Upload the latest changes to GitHub.
+
+---
+
+# 🎯 Phase Summary
+
+In this phase we successfully created:
+
+- ✅ Enterprise Project Structure
+- ✅ HLD Framework
+- ✅ LLD Framework
+- ✅ Infrastructure Deep Dive Framework
+- ✅ Security Review Framework
+- ✅ Runbook Framework
+- ✅ Diagram Framework
+- ✅ Script Framework
+- ✅ Template Framework
+- ✅ Asset Framework
+
+---
+
+# 📁 Repository Preview
+
+```text
+Enterprise-IT-Infrastructure
+│
+├── 00-Project-Setup
+├── 01-Projects
+├── 02-HLD
+├── 03-LLD
+├── 04-Infrastructure-Deep-Dive
+├── 05-Security-Review
+├── 06-Runbooks
+├── 07-Diagrams
+├── 08-Scripts
+├── 09-Templates
+├── 10-Assets
+│
+├── README.md
+├── LICENSE
+├── CHANGELOG.md
+└── .gitignore
+```
+
+---
+
+# 🚀 Next Phase
+
+**Phase 05 – Build Project Documentation**
+
+We will begin documenting the real production environment.
+
+- Project Overview
+- Customer Infrastructure
+- Network Architecture
+- Branch Connectivity
+- Server Inventory
+- Cloud Services
+- High Level Design (HLD)
+
+> 🎯 **Milestone:** Git setup is now complete. From the next phase onward, the focus shifts entirely to documenting the enterprise infrastructure.
