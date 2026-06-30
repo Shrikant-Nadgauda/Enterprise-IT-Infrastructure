@@ -716,3 +716,298 @@ In this phase we successfully completed:
 
 > 💡 **Enterprise Best Practice:** Treat GitHub as your engineering diary. Every meaningful improvement should be committed with a clear message, making your learning journey and project history easy to follow and review.
 
+# 🚀 Enterprise IT Infrastructure Knowledge Base
+
+> **Phase 03 : Build Enterprise Repository Structure**
+
+![GitHub](https://img.shields.io/badge/GitHub-Knowledge%20Base-181717?style=for-the-badge&logo=github)
+![Documentation](https://img.shields.io/badge/Documentation-Enterprise-blue?style=for-the-badge)
+![Project](https://img.shields.io/badge/Project-Infrastructure-green?style=for-the-badge)
+
+---
+
+# 📖 Objective
+
+In this phase, we will create the complete repository structure for documenting an enterprise production infrastructure.
+
+The repository is designed to serve as a long-term knowledge base covering architecture, implementation, operations, security reviews, troubleshooting, and real-world production practices.
+
+---
+
+# 📂 Repository Structure
+
+```text
+Enterprise-IT-Infrastructure
+│
+├── 00-Project-Setup
+│
+├── 01-Projects
+│     └── RK-Project-Details
+│
+├── 02-HLD
+│     └── RK-HLD
+│
+├── 03-LLD
+│     └── RK-LLD
+│
+├── 04-Infrastructure-Deep-Dive
+│
+├── 05-Security-Review
+│
+├── 06-Runbooks
+│
+├── 07-Diagrams
+│
+├── 08-Scripts
+│
+├── 09-Templates
+│
+├── 10-Assets
+│
+├── README.md
+├── LICENSE
+├── CHANGELOG.md
+└── .gitignore
+```
+
+---
+
+# 📁 Folder Purpose
+
+| Folder | Description |
+|---------|-------------|
+| 00-Project-Setup | Repository creation and setup documentation |
+| 01-Projects | Customer project documentation |
+| 02-HLD | High Level Design documents |
+| 03-LLD | Low Level Design documents |
+| 04-Infrastructure-Deep-Dive | Detailed explanation of every infrastructure component |
+| 05-Security-Review | Security review checklists, evidence and reports |
+| 06-Runbooks | Operational procedures and SOPs |
+| 07-Diagrams | Draw.io, PDF and PNG diagrams |
+| 08-Scripts | PowerShell, Bash and CLI scripts |
+| 09-Templates | Reusable templates |
+| 10-Assets | Images, Icons and supporting files |
+
+---
+
+# 📁 Project Structure
+
+```text
+01-Projects
+└── RK-Project-Details
+```
+
+Contents
+
+```text
+README.md
+RK-Architecture.drawio
+RK-Architecture.pdf
+RK-Network-Flow.md
+RK-Server-Inventory.xlsx
+RK-IP-Addressing.xlsx
+RK-Meeting-Notes.md
+RK-Project-Timeline.md
+```
+
+---
+
+# 📁 High Level Design
+
+```text
+02-HLD
+└── RK-HLD
+```
+
+Contents
+
+```text
+README.md
+Architecture
+Network
+Servers
+Cloud
+Security
+Inventory
+```
+
+---
+
+# 📁 Low Level Design
+
+```text
+03-LLD
+└── RK-LLD
+```
+
+Contents
+
+```text
+README.md
+Network
+Firewall
+Servers
+Cloud
+VPN
+Authentication
+```
+
+---
+
+# 📁 Infrastructure Deep Dive
+
+```text
+04-Infrastructure-Deep-Dive
+```
+
+Enterprise Components
+
+```text
+RK-DC-FortiGate-120G
+RK-DC-Active-Directory
+RK-DC-Certificate-Authority
+RK-DC-WSUS
+RK-DC-NTP
+RK-DC-Backup
+RK-DC-Email-Protector
+RK-DC-NMS
+RK-DC-File-Server
+RK-DC-Application-Server
+RK-DC-Database-Server
+
+RK-Cloud-Entra-ID
+RK-Cloud-Microsoft365
+RK-Cloud-Intune
+RK-Cloud-Authenticator
+```
+
+---
+
+# 📁 Security Review
+
+```text
+05-Security-Review
+```
+
+Contents
+
+```text
+Checklists
+Evidence
+Reports
+```
+
+---
+
+# 📁 Runbooks
+
+```text
+06-Runbooks
+```
+
+Contents
+
+```text
+New User
+Password Reset
+VPN Access
+Certificate Renewal
+Laptop Build
+```
+
+---
+
+# 📁 Diagrams
+
+```text
+07-Diagrams
+```
+
+Contents
+
+```text
+DrawIO
+PNG
+PDF
+```
+
+---
+
+# 📁 Scripts
+
+```text
+08-Scripts
+```
+
+Contents
+
+```text
+PowerShell
+Bash
+FortiGate CLI
+```
+
+---
+
+# 📁 Templates
+
+```text
+09-Templates
+```
+
+Contents
+
+```text
+Checklist
+Evidence
+Email
+HLD
+LLD
+```
+
+---
+
+# 📁 Assets
+
+```text
+10-Assets
+```
+
+Contents
+
+```text
+Images
+Icons
+Logos
+```
+
+---
+
+# 🎯 Phase Summary
+
+Repository foundation is now complete.
+
+The next phases will focus entirely on documenting the production infrastructure component by component.
+
+---
+
+# 🚀 Next Phase
+
+**Phase 04 – Create Project Documentation (RK Project Details)**
+
+This phase includes:
+
+- Project Overview
+- Customer Environment
+- Site Information
+- Branch Connectivity
+- Technology Stack
+- Production Architecture
+- Network Overview
+- Server Inventory
+- Cloud Services
+- Scope of Documentation
+
+---
+
+> **Repository Status:** ✅ Repository Structure Completed
