@@ -57,11 +57,11 @@ This document acts as the primary architectural reference for infrastructure eng
 
                                          🔀 Core Layer-3 Switch
                                                        │
-      ┌───────────────────────────────┬───────────────────────────────┬───────────────────────────────┐
-      │                               │                               │
-      ▼                               ▼                               ▼
+      ┌───────────────────────────────────┬───────────────────────────────────┬
+      │                                   │                                   │
+      ▼                                   ▼                                   ▼
 
- 🖥 Infrastructure VLAN         💼 Application VLAN            👥 User VLAN
+ 🖥 Infrastructure VLAN         💼 Application VLAN                   👥 User VLAN
 
       │
       ▼
@@ -94,7 +94,7 @@ This document acts as the primary architectural reference for infrastructure eng
 
           📧 Microsoft 365                    💻 Microsoft Intune             📱 Microsoft Authenticator
 
-                    │                                   │                                  │
+                    │                                   │                                 │
       ┌─────────────┼──────────────┐          ┌─────────┼──────────┐                      │
       │             │              │          │         │          │                      │
 📧 Outlook     💬 Teams      ☁ OneDrive   💻 Windows PCs   💼 Laptops             🔐 MFA / OTP
@@ -108,7 +108,7 @@ This document acts as the primary architectural reference for infrastructure eng
           🏢 Mumbai HO
                 │
                 ├──────────────🔐 IPSec VPN──────────────┐
-                │                                        │
+                │                                         │
          🏢 Pune Branch                          🏢 Nashik Branch
                 │                                        │
                 └──────────────🔐 IPSec VPN──────────────┘
