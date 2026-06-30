@@ -58,11 +58,11 @@ The objective is to provide secure, highly available, and centralized access to 
 
                                     🔀 Core Layer 3 Switch
                                                   │
-             ┌───────────────────────┬────────────┼───────────────┬───────────────────────┐
-             │                       │            │               │
-             ▼                       ▼            ▼               ▼
+             ┌───────────────────────┬──────────────┼─────────────────────┬
+             │                       │              │                     │
+             ▼                       ▼              ▼                     ▼
 
-      🖥 Server VLAN          👨 User VLAN    🖨 Printer VLAN   📹 Management VLAN
+      🖥 Server VLAN          👨 User VLAN      🖨 Printer VLAN        📹 Management VLAN
              │
              ▼
 
