@@ -991,25 +991,6 @@ The next phases will focus entirely on documenting the production infrastructure
 
 ---
 
-# 🚀 Next Phase
-
-**Phase 04 – Create Project Documentation (RK Project Details)**
-
-This phase includes:
-
-- Project Overview
-- Customer Environment
-- Site Information
-- Branch Connectivity
-- Technology Stack
-- Production Architecture
-- Network Overview
-- Server Inventory
-- Cloud Services
-- Scope of Documentation
-
----
-
 > **Repository Status:** ✅ Repository Structure Completed
 
 # 🚀 Enterprise IT Infrastructure Knowledge Base
@@ -1195,18 +1176,115 @@ Enterprise-IT-Infrastructure
 
 ---
 
+# 🚀 Enterprise IT Infrastructure Knowledge Base
+
+> **Phase 05 : Create Project Documentation Structure**
+
+![Git](https://img.shields.io/badge/Git-Git%20Bash-F05032?style=for-the-badge&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-Documentation-181717?style=for-the-badge&logo=github)
+![Project](https://img.shields.io/badge/Project-Enterprise-blue?style=for-the-badge)
+
+---
+
+# 📖 Objective
+
+Create the project documentation directory and all standard Markdown files required for documenting an enterprise infrastructure project.
+
+---
+
+# 🛠 Step 1 — Navigate to Project Repository
+
+```bash
+cd /d/Enterprise-IT-Infrastructure
+```
+
+**Purpose:** Open the project repository.
+
+---
+
+# 🛠 Step 2 — Create Project Directory
+
+```bash
+mkdir -p 01-Projects/RK-Project-Details
+```
+
+**Purpose:** Create the customer project folder.
+
+---
+
+# 🛠 Step 3 — Create Documentation Files
+
+```bash
+touch \
+01-Projects/README.md \
+01-Projects/RK-Project-Details/README.md \
+01-Projects/RK-Project-Details/{01-Project-Overview,02-Customer-Environment,03-Site-Information,04-Network-Overview,05-Server-Inventory,06-Cloud-Services,07-Branch-Connectivity,08-Technology-Stack,09-Architecture,10-Scope}.md
+```
+
+**Purpose:** Create all project documentation files using a single command.
+
+---
+
+# 🛠 Step 4 — Verify Structure
+
+```bash
+tree 01-Projects
+```
+
+### ✅ Expected Output
+
+```text
+01-Projects
+│
+├── README.md
+│
+└── RK-Project-Details
+    │
+    ├── README.md
+    ├── 01-Project-Overview.md
+    ├── 02-Customer-Environment.md
+    ├── 03-Site-Information.md
+    ├── 04-Network-Overview.md
+    ├── 05-Server-Inventory.md
+    ├── 06-Cloud-Services.md
+    ├── 07-Branch-Connectivity.md
+    ├── 08-Technology-Stack.md
+    ├── 09-Architecture.md
+    └── 10-Scope.md
+```
+
+---
+
+# 🛠 Step 5 — Save Changes
+
+```bash
+git add .
+git commit -m "Create enterprise project documentation structure"
+git push
+```
+
+---
+
+# 🎯 Phase Summary
+
+✅ Project directory created
+
+✅ Documentation framework created
+
+✅ Standard Markdown files created
+
+✅ Repository updated on GitHub
+
+---
+
 # 🚀 Next Phase
 
-**Phase 05 – Build Project Documentation**
+**Start writing the actual project documentation beginning with:**
 
-We will begin documenting the real production environment.
+```text
+01-Projects
+└── RK-Project-Details
+    └── 01-Project-Overview.md
+```
 
-- Project Overview
-- Customer Infrastructure
-- Network Architecture
-- Branch Connectivity
-- Server Inventory
-- Cloud Services
-- High Level Design (HLD)
-
-> 🎯 **Milestone:** Git setup is now complete. From the next phase onward, the focus shifts entirely to documenting the enterprise infrastructure.
+> 📌 **Best Practice:** Create the complete documentation structure first, then start filling each document one by one.
