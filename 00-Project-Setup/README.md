@@ -1386,8 +1386,130 @@ git push
 
 ---
 
-## ✅ Standard Commit
+# 🚀 Enterprise IT Infrastructure Knowledge Base
+
+# Phase 07 : Create Low-Level Design (LLD) Documentation Structure
+
+Git • GitHub • Enterprise Architecture
+
+---
+
+# 📖 Objective
+
+Create the complete **Low-Level Design (LLD)** documentation structure for the enterprise infrastructure.
+
+The LLD documents provide a detailed technical view of each infrastructure component, including configurations, workflows, deployment architecture, dependencies, and operational behavior before moving into the Infrastructure Deep Dive section.
+
+---
+
+# 🛠 Step 1 — Navigate to Project Repository
 
 ```bash
-git commit -m "Create HLD documentation structure"
+cd /d/Enterprise-IT-Infrastructure
 ```
+
+**Purpose:** Open the enterprise project repository.
+
+---
+
+# 🛠 Step 2 — Navigate to LLD Directory
+
+```bash
+cd 03-LLD
+```
+
+**Purpose:** Open the Low-Level Design documentation directory.
+
+---
+
+# 🛠 Step 3 — Create LLD Documentation Files
+
+```bash
+touch \
+README.md \
+01-FortiGate-LLD.md \
+02-Interfaces.md \
+03-Security-Zones.md \
+04-Routing.md \
+05-Firewall-Policies.md \
+06-NAT.md \
+07-VIP.md \
+08-IP-Pools.md \
+09-VPN.md \
+10-SSL-VPN.md \
+11-IPSec-VPN.md \
+12-High-Availability.md \
+13-Authentication.md \
+14-Logging-Monitoring.md \
+15-Debug-Troubleshooting.md \
+16-Best-Practices.md \
+17-Hardening-Guidelines.md \
+18-Operational-Checklist.md \
+19-Configuration-Standards.md \
+20-LLD-Summary.md
+```
+
+**Purpose:** Create all Low-Level Design (LLD) documentation files using a single command.
+
+---
+
+# 🛠 Step 4 — Verify Structure
+
+```bash
+tree .
+```
+
+---
+
+# ✅ Expected Output
+
+```text
+03-LLD
+│
+├── README.md
+│
+├── 01-FortiGate-LLD.md
+├── 02-Interfaces.md
+├── 03-Security-Zones.md
+├── 04-Routing.md
+├── 05-Firewall-Policies.md
+├── 06-NAT.md
+├── 07-VIP.md
+├── 08-IP-Pools.md
+├── 09-VPN.md
+├── 10-SSL-VPN.md
+├── 11-IPSec-VPN.md
+├── 12-High-Availability.md
+├── 13-Authentication.md
+├── 14-Logging-Monitoring.md
+├── 15-Debug-Troubleshooting.md
+├── 16-Best-Practices.md
+├── 17-Hardening-Guidelines.md
+├── 18-Operational-Checklist.md
+├── 19-Configuration-Standards.md
+└── 20-LLD-Summary.md
+```
+
+---
+
+# 🛠 Step 5 — Save Changes
+
+```bash
+git add .
+git commit -m "Create LLD documentation structure"
+git push
+```
+
+---
+
+# 🎯 Phase Summary
+
+✅ Low-Level Design directory prepared
+
+✅ Technical documentation structure created
+
+✅ Standard LLD Markdown files created
+
+✅ Repository updated on GitHub
+
+---
