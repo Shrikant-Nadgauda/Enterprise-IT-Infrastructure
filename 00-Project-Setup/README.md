@@ -1262,9 +1262,12 @@ git push
 
 # 🚀 Enterprise IT Infrastructure Knowledge Base
 
-# Phase 06 : Create High-Level Design (HLD) Documentation Structure
+> **Phase 06 : Create High-Level Design (HLD) Documentation Structure**
 
-Git • GitHub • Enterprise Architecture
+![Git](https://img.shields.io/badge/Git-Version%20Control-F05032?style=for-the-badge&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-Enterprise%20Repository-181717?style=for-the-badge&logo=github)
+![HLD](https://img.shields.io/badge/HLD-Architecture%20Design-0A66C2?style=for-the-badge)
+![Documentation](https://img.shields.io/badge/Documentation-Professional-blue?style=for-the-badge)
 
 ---
 
@@ -1388,11 +1391,12 @@ git push
 
 # 🚀 Enterprise IT Infrastructure Knowledge Base
 
-# Phase 07 : Create Low-Level Design (LLD) Documentation Structure
+> **Phase 07 : Create Low-Level Design (LLD) Documentation Structure**
 
-Git • GitHub • Enterprise Architecture
-
----
+![Git](https://img.shields.io/badge/Git-Version%20Control-F05032?style=for-the-badge&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-Enterprise%20Repository-181717?style=for-the-badge&logo=github)
+![LLD](https://img.shields.io/badge/LLD-Technical%20Design-28A745?style=for-the-badge)
+![Documentation](https://img.shields.io/badge/Documentation-Professional-blue?style=for-the-badge)
 
 # 📖 Objective
 
@@ -1515,9 +1519,12 @@ git push
 ---
 # 🚀 Enterprise IT Infrastructure Knowledge Base
 
-# Phase 08 : Create Infrastructure Deep Dive Documentation Structure
+> **Phase 08 : Create Infrastructure Deep Dive Documentation Structure**
 
-Git • GitHub • Enterprise Learning
+![Git](https://img.shields.io/badge/Git-Version%20Control-F05032?style=for-the-badge&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-Enterprise%20Repository-181717?style=for-the-badge&logo=github)
+![Deep Dive](https://img.shields.io/badge/Infrastructure-Deep%20Dive-6F42C1?style=for-the-badge)
+![Documentation](https://img.shields.io/badge/Documentation-Professional-blue?style=for-the-badge)
 
 ---
 
