@@ -1715,3 +1715,243 @@ git push
 ✅ Repository updated on GitHub
 
 ---
+
+# 🚀 Enterprise IT Infrastructure Knowledge Base
+
+> **Phase 09 : Repository Refactoring (FortiGate Deep Dive)**
+
+![Documentation](https://img.shields.io/badge/Documentation-Repository%20Refactoring-blue?style=for-the-badge)
+![Architecture](https://img.shields.io/badge/Architecture-Improvement-green?style=for-the-badge)
+![FortiGate](https://img.shields.io/badge/FortiGate-Deep%20Dive-red?style=for-the-badge)
+
+---
+
+# 📖 Objective
+
+During the documentation process, the FortiGate **Low-Level Design (LLD)** section gradually became much more detailed than originally planned.
+
+Instead of keeping implementation-focused topics in the LLD, the repository will now follow a cleaner documentation hierarchy by moving all detailed FortiGate learning content into the **Infrastructure Deep Dive** section.
+
+This keeps the repository organized and aligns every section with its intended purpose.
+
+---
+
+# 🛠 Step 1 — Move FortiGate Documents
+
+Move all detailed FortiGate documents from:
+
+```text
+03-LLD
+```
+
+to
+
+```text
+04-Infrastructure-Deep-Dive
+└── 01-FortiGate
+```
+
+**Purpose:** Keep implementation-focused learning inside the Deep Dive section.
+
+---
+
+# 🛠 Step 2 — Continue FortiGate Documentation
+
+Complete the remaining FortiGate learning modules inside:
+
+```text
+04-Infrastructure-Deep-Dive
+└── 01-FortiGate
+```
+
+**Purpose:** Finish the complete FortiGate learning journey before moving to the next technology.
+
+---
+
+# 🛠 Step 3 — Resume Enterprise LLD
+
+After completing the FortiGate Deep Dive, return to:
+
+```text
+03-LLD
+```
+
+and redesign it as a true infrastructure Low-Level Design containing concise design documents for every enterprise component.
+
+**Purpose:** Restore the intended architecture of the repository.
+
+---
+
+# 🎯 Repository Documentation Flow
+
+```text
+Project
+
+↓
+
+High-Level Design (HLD)
+
+↓
+
+Low-Level Design (LLD)
+
+↓
+
+Infrastructure Deep Dive
+
+↓
+
+Runbooks
+
+↓
+
+Security Review
+```
+
+---
+
+# ✅ Phase Summary
+
+- Repository structure refined.
+- FortiGate content moved to the correct section.
+- LLD restored to architecture-focused documentation.
+- Deep Dive becomes the implementation and learning section.
+- Ready to continue the FortiGate Zero-to-Hero journey.
+
+---
+
+# 📌 Repository Update
+
+During the initial documentation phase, the FortiGate **Low-Level Design (LLD)** expanded beyond its original scope and began covering implementation-level topics.
+
+To maintain a clear separation between architectural documentation and hands-on learning, all detailed FortiGate content is now being developed under:
+
+```text
+04-Infrastructure-Deep-Dive
+└── 01-FortiGate
+```
+
+The **LLD** section will later be redesigned to focus on concise technical design documents for all enterprise infrastructure components, while the **Infrastructure Deep Dive** section becomes the dedicated learning area for complete implementation, configuration, troubleshooting, and production deployment.
+
+This refactoring improves repository consistency and creates a clear learning path from architecture to implementation.
+
+---
+
+# 🚀 Enterprise IT Infrastructure Knowledge Base
+
+> **Phase 10 : Refactor FortiGate Documentation into Infrastructure Deep Dive**
+
+![Git](https://img.shields.io/badge/Git-Version%20Control-F05032?style=for-the-badge&logo=git&logoColor=white)
+![Repository](https://img.shields.io/badge/Repository-Refactoring-blue?style=for-the-badge)
+![FortiGate](https://img.shields.io/badge/FortiGate-Deep%20Dive-red?style=for-the-badge)
+
+---
+
+# 📖 Objective
+
+Move all FortiGate implementation-focused documents from the **Low-Level Design (LLD)** section into the **Infrastructure Deep Dive** section.
+
+After moving the existing documents, create the remaining Markdown files required to complete the FortiGate **Zero-to-Hero** learning path.
+
+---
+
+# 🛠 Step 1 — Navigate to Repository
+
+```bash
+cd /d/Enterprise-IT-Infrastructure
+```
+
+**Purpose:** Open the Enterprise Infrastructure repository.
+
+---
+
+# 🛠 Step 2 — Move Existing FortiGate Documents
+
+```bash
+mv 03-LLD/*.md 04-Infrastructure-Deep-Dive/01-FortiGate/
+```
+
+**Purpose:** Move all existing FortiGate documentation into the Infrastructure Deep Dive section.
+
+> **Note:** Keep `03-LLD/README.md` if you plan to redesign the LLD section later.
+
+---
+
+# 🛠 Step 3 — Create Remaining Deep Dive Documents
+
+```bash
+touch \
+04-Infrastructure-Deep-Dive/01-FortiGate/{08-IP-Pools,09-VPN,10-SSL-VPN,11-IPSec-VPN,12-Authentication,13-Logging,14-Debug,15-High-Availability,16-Security-Profiles,17-Best-Practices,18-Troubleshooting,19-Deployment-Checklist,20-CLI-Basics,21-GUI-Walkthrough,22-Firmware-Upgrades,23-Configuration-Backup-and-Restore,24-License-and-FortiGuard,25-Real-World-Deployment,26-Production-Best-Practices,27-Enterprise-Troubleshooting-Scenarios,28-Interview-Questions,29-Hands-On-Labs,30-FortiGate-Zero-to-Hero-Summary}.md
+```
+
+**Purpose:** Create the remaining FortiGate learning documents.
+
+---
+
+# 🛠 Step 4 — Verify Structure
+
+```bash
+tree 04-Infrastructure-Deep-Dive/01-FortiGate
+```
+
+---
+
+# ✅ Expected Output
+
+```text
+01-FortiGate
+│
+├── README.md
+├── 01-What-is-Firewall.md
+├── 02-How-Firewall-Works.md
+├── 03-Packet-Flow.md
+├── 04-Interfaces.md
+├── 05-Firewall-Policy.md
+├── 06-NAT.md
+├── 07-VIP.md
+├── 08-IP-Pools.md
+├── 09-VPN.md
+├── 10-SSL-VPN.md
+├── 11-IPSec-VPN.md
+├── 12-Authentication.md
+├── 13-Logging.md
+├── 14-Debug.md
+├── 15-High-Availability.md
+├── 16-Security-Profiles.md
+├── 17-Best-Practices.md
+├── 18-Troubleshooting.md
+├── 19-Deployment-Checklist.md
+├── 20-CLI-Basics.md
+├── 21-GUI-Walkthrough.md
+├── 22-Firmware-Upgrades.md
+├── 23-Configuration-Backup-and-Restore.md
+├── 24-License-and-FortiGuard.md
+├── 25-Real-World-Deployment.md
+├── 26-Production-Best-Practices.md
+├── 27-Enterprise-Troubleshooting-Scenarios.md
+├── 28-Interview-Questions.md
+├── 29-Hands-On-Labs.md
+└── 30-FortiGate-Zero-to-Hero-Summary.md
+```
+
+---
+
+# 🛠 Step 5 — Save Changes
+
+```bash
+git add .
+git commit -m "Refactor FortiGate documentation into infrastructure deep dive"
+git push
+```
+
+---
+
+# 🎯 Phase Summary
+
+- ✅ FortiGate documents moved from LLD to Infrastructure Deep Dive
+- ✅ Repository architecture refactored
+- ✅ Deep Dive section becomes the primary FortiGate learning path
+- ✅ Remaining learning documents created
+- ✅ Ready to continue FortiGate implementation from Zero to Hero
+
+---
