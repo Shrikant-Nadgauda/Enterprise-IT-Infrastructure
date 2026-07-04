@@ -1955,3 +1955,189 @@ git push
 - ✅ Ready to continue FortiGate implementation from Zero to Hero
 
 ---
+
+# 🚀 Enterprise IT Infrastructure Knowledge Base
+
+> ** Phase-11 : Infrastructure Deep Dive (Zero to Hero Learning)**
+
+![FortiGate](https://img.shields.io/badge/FortiGate-Deep%20Dive-red?style=for-the-badge)
+![Enterprise](https://img.shields.io/badge/Enterprise-Hands--On-blue?style=for-the-badge)
+![Learning](https://img.shields.io/badge/Learning-Zero%20to%20Hero-green?style=for-the-badge)
+
+---
+
+# 📖 Objective
+
+The **Infrastructure Deep Dive** section is the core learning area of this repository.
+
+Unlike the **Project**, **HLD**, and **LLD** sections—which focus on documentation and architecture—this section provides complete implementation knowledge for every enterprise infrastructure component.
+
+Here, every technology is explained from **fundamentals to production deployment**, enabling engineers to understand not only **what** a component is, but also **how it works, how to configure it, how to troubleshoot it, and how it integrates into a real enterprise environment**.
+
+---
+
+# 🎯 Learning Approach
+
+Every infrastructure component will follow the same learning path.
+
+```text
+What is it?
+
+↓
+
+Why do we need it?
+
+↓
+
+How does it work?
+
+↓
+
+Architecture
+
+↓
+
+Packet / Data Flow
+
+↓
+
+Core Components
+
+↓
+
+Installation
+
+↓
+
+Configuration
+
+↓
+
+Enterprise Deployment
+
+↓
+
+GUI
+
+↓
+
+CLI / PowerShell
+
+↓
+
+Best Practices
+
+↓
+
+Monitoring
+
+↓
+
+Troubleshooting
+
+↓
+
+Real Production Scenarios
+
+↓
+
+Interview Questions
+
+↓
+
+Hands-on Labs
+```
+
+---
+
+# 🏗 Repository Structure
+
+```text
+04-Infrastructure-Deep-Dive
+│
+├── 01-FortiGate
+├── 02-Active-Directory
+├── 03-Certificate-Authority
+├── 04-WSUS
+├── 05-Backup
+├── 06-NTP
+├── 07-Email-Protector
+├── 08-NMS
+├── 09-File-Server
+├── 10-Application-Server
+├── 11-Database-Server
+├── 12-Microsoft-Entra-ID
+├── 13-Microsoft-365
+├── 14-Microsoft-Intune
+└── 15-Microsoft-Authenticator
+```
+
+---
+
+# 🧠 What Makes This Section Different?
+
+Previous sections explain the infrastructure from a documentation perspective.
+
+This section teaches the technology like an engineer building it from scratch.
+
+Every topic includes:
+
+- Concept Explanation
+- Enterprise Architecture
+- Real-Life Examples
+- Practical Diagrams
+- GUI Walkthroughs
+- CLI / PowerShell Commands
+- Production Best Practices
+- Troubleshooting Techniques
+- Hands-on Labs
+- Interview Preparation
+
+---
+
+# 📚 Learning Outcome
+
+After completing this section, you will be able to:
+
+- Design enterprise infrastructure
+- Deploy production environments
+- Configure enterprise services
+- Troubleshoot real-world issues
+- Understand packet and authentication flows
+- Perform operational tasks confidently
+- Prepare for enterprise-level interviews
+
+---
+
+# 🚀 First Technology
+
+```text
+04-Infrastructure-Deep-Dive
+│
+└── 01-FortiGate
+    │
+    ├── 01-What-is-Firewall.md
+    ├── 02-How-Firewall-Works.md
+    ├── 03-Packet-Flow.md
+    ├── 04-Interfaces.md
+    ├── 05-Firewall-Policy.md
+    ├── 06-NAT.md
+    ├── 07-VIP.md
+    └── ...
+```
+
+The journey begins with **FortiGate**, where we will learn everything from **"What is a Firewall?"** to **advanced enterprise deployments**, including packet flow, GUI, CLI, troubleshooting, security best practices, and real production scenarios.
+
+---
+
+# 🎯 Phase Summary
+
+✅ Documentation Phase Completed
+
+✅ High-Level Design (HLD) Completed
+
+✅ Low-Level Design (LLD) Completed
+
+✅ Ready to Begin Hands-on Infrastructure Learning
+
+> **Welcome to the heart of the repository — the Infrastructure Deep Dive, where every enterprise technology is mastered from Zero to Hero.**
